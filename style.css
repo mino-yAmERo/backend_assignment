@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important; 
+}
+h1 {
+    
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+}
+button {
+    margin: 0 10px;
+}
+div {
+    margin : 5px;
+}
+.page-wrapper {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+.container {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+.table-container {
+    margin-bottom: 25px;
+    width:100%;
+}
+thead {
+    background-color: rgb(73, 73, 73);
+    color: rgb(240,240,240);
+}
+tr:hover {
+    cursor: pointer;
+}
+.order-container {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+#testBtn {
+    background-color: rgb(129, 148, 155);
+    font-size: 16px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: auto;
+    padding: 12px 15px ;
+    margin: 20px;
+    
+}
+#testBtn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.4s
+}
