@@ -1,0 +1,309 @@
+{
+	"info": {
+		"_postman_id": "3e5306cf-2e07-405b-9277-086ee5cd1727",
+		"name": "Product list API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19390617"
+	},
+	"item": [
+		{
+			"name": "gender",
+			"item": [
+				{
+					"name": "filter : gender = \"Men\"",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/product/gender/Men",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"gender",
+								"Men"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "filter : gender = \"Women\"",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/product/gender/Women",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"gender",
+								"Women"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "style",
+			"item": [
+				{
+					"name": "filter : style : Plain Color Black",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/product/style/Plain Color/Black",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"style",
+								"Plain Color",
+								"Black"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "filter : style : Plain Color White",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/product/style/Plain Color/White",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"style",
+								"Plain Color",
+								"White"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "filter : style : Pattern Floral",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/product/style/Pattern/Floral",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"style",
+								"Pattern",
+								"Floral"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "filter : style : Pattern Gingham",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/product/style/Pattern/Gingham",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"style",
+								"Pattern",
+								"Gingham"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "filter : style : Figure Batman",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/product/style/Figure/Batman",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"style",
+								"Figure",
+								"Batman"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "filter : style : Figure Gogowa",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/product/style/Figure/Gogowa",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"style",
+								"Figure",
+								"Gogowa"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "size",
+			"item": [
+				{
+					"name": "filter : size : XS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/product/size/XS",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"size",
+								"XS"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "filter : size : S",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/product/size/S",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"size",
+								"S"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "filter : size : XL",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/product/size/XL",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"size",
+								"XL"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "filter : size : L",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/product/size/L",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"size",
+								"L"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "filter : size : M",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/product/size/M",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"product",
+								"size",
+								"M"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "all product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/product",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
